@@ -141,7 +141,7 @@ REVISION        UPDATED                         STATUS          CHART           
 controlplane $ helm rollback test-release 1
 Rollback was a success! Happy Helming!
 ```
-``bash
+```bash
 controlplane $ helm history test-release
 REVISION        UPDATED                         STATUS          CHART           APP VERSION     DESCRIPTION     
 1               Sun Feb 12 10:58:36 2023        superseded      nginx-12.0.1    1.22.0          Install complete
