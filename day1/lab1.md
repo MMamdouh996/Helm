@@ -131,16 +131,19 @@ To access NGINX from outside the cluster, follow the steps below:
     echo "http://${SERVICE_IP}:${SERVICE_PORT}"
 
 ```
+
 ```bash
 controlplane $ helm history test-release   
 REVISION        UPDATED                         STATUS          CHART           APP VERSION     DESCRIPTION     
 1               Sun Feb 12 10:58:36 2023        superseded      nginx-12.0.1    1.22.0          Install complete
 2               Sun Feb 12 11:01:24 2023        deployed        nginx-13.1.3    1.23.1          Upgrade complete
 ```
+
 ```bash
 controlplane $ helm rollback test-release 1
 Rollback was a success! Happy Helming!
 ```
+
 ```bash
 controlplane $ helm history test-release
 REVISION        UPDATED                         STATUS          CHART           APP VERSION     DESCRIPTION     
