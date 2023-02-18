@@ -13,7 +13,7 @@ configMap:
 
 
 image:
-  repository: 95remon/python-project
+  repository: mohamedmamdouh/python-project
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1.0"
