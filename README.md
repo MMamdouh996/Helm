@@ -7,6 +7,8 @@
 
 controlplane $ ls
 python_app  redis
+```
+```bash
 controlplane $ helm install redis ./redis/
 NAME: redis
 LAST DEPLOYED: Sat Feb 18 19:51:48 2023
